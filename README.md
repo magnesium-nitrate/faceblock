@@ -4,6 +4,9 @@
 * Faceblock takes images and automatically finds and fills any faces with a blue rectangle
 * I created faceblock so that it would be easy for anyone to block out the faces of people in pictures
 
+![alt text](https://github.com/magnesium-nitrate/faceblock/blob/master/cov6.jpg)
+![alt_text](https://github.com/magnesium-nitrate/faceblock/blob/master/new8.jpg)
+
 ## How to use the .py code
 * To use the regular python files make sure you pip install matplotlib, mtcnn, and opencv
 * In the filename variable change "cov6.jpg" to the name of your file and it'll be able to read it in
