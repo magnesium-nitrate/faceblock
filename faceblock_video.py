@@ -4,11 +4,14 @@ from mtcnn.mtcnn import MTCNN
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
+input_path = 'video2.mp4'
+output_path = 'output3.mp4'
+
 detector = MTCNN()
-capture = cv2.VideoCapture('video2.mp4')
+capture = cv2.VideoCapture(input_path)
 w1 = capture.get(3)
 h1 = capture.get(4)
-out = cv2.VideoWriter('output3.mp4', -1, 20.0, (int(w1),int(h1)))
+out = cv2.VideoWriter(output_path, -1, 20.0, (int(w1),int(h1)))
 
 while (capture.isOpened()):
     ret, image = capture.read()
