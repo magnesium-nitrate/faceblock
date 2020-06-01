@@ -5,7 +5,7 @@
 * I created faceblock so that it would be easy for anyone to block out the faces of people in pictures
 
 ![alt text](https://github.com/magnesium-nitrate/faceblock/blob/master/cov6.jpg)
-![alt_text](https://github.com/magnesium-nitrate/faceblock/blob/master/new8.jpg)
+![alt_text](https://github.com/magnesium-nitrate/faceblock/blob/master/after.jpg)
 
 ## How to use the .py code
 * To use the regular python files make sure you pip install matplotlib, mtcnn, and opencv
